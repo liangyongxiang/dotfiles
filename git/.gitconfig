@@ -1,0 +1,26 @@
+[user]
+	email = tanekliang@gmail.com
+	name = Yongxiang Liang
+	signingkey = 5A9020DE819944FB557550F1530163CFEC309530
+[http]
+	proxy = http://127.0.0.1:8118
+[https]
+	proxy = https://127.0.0.1:8118
+[core]
+	safecrlf = true
+	autocrlf = false
+	quotepath = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
