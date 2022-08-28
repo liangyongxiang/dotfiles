@@ -1,0 +1,12 @@
+Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.rgba: rgb
+Xcursor.size: 48
+Xcursor.theme: Silver
+XTerm.vt100.faceName: Noto Sans Mono
+XTerm.vt100.faceNameDoublesize: Noto Sans Mono CJK SC
+xterm.vt100.faceSize: 12
+XTerm*Background: black
+XTerm*Foreground: linen
+XTerm.vt100.locale: true

@@ -1,0 +1,22 @@
+"flameshot gui"
+    Mod4 + a
+
+# Mute volume
+"pactl set-sink-mute 0 toggle"
+    Control + F1
+
+# Increase volume
+"pactl set-sink-volume 0 -3%"
+    Control + F2
+
+# Decrease volume
+"pactl set-sink-volume 0 +3%"
+    Control + F3
+
+# Increase backlight
+"xbacklight -inc 10"
+   XF86MonBrightnessUp
+
+# Decrease backlight
+"xbacklight -dec 10"
+   XF86MonBrightnessDown
